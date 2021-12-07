@@ -4,18 +4,27 @@
     font-family: 'Outfit', sans-serif;
 }
 
+body{
+    
+}
+
+/* HEADER */
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #496b7e;
-    height: 50px;
+    background-color: #496B7E;
     overflow: hidden;
+    align-items: center;
+    height: 30px;
+    padding: 10px 0;
 
 }
 
 header .logo{
+    margin-left: 10px;
     display: flex;
     align-items: center;
+    height: 20px;
 }
 
 header .logo img{
@@ -32,13 +41,12 @@ header .logo a p{
     font-size: 22px;
     color: #ffff;
     letter-spacing: 0.06em;
-    margin-left: 10px;
+    margin-top: 10px;
 }
 
 nav{
-    padding: 14px 0;
-    width: 400px;
-    margin-right: 100px;
+    width: 300px;
+    margin-right: 40px;
 }
 
 nav ul{
@@ -51,8 +59,86 @@ nav ul li a{
     color: #ffff;
     text-decoration: none;
     transition: .3s ease;
+    font-size: 14px;
 }
 
 nav ul li a:hover{
     color:gold;
 }
+
+/* hero */
+.hero{
+    height: 1057px;
+    background: linear-gradient(180deg, #496B7E 5.21%, rgba(73, 107, 126, 0.572917) 60.77%, rgba(153, 172, 183, 0.320091) 100%, rgba(255, 255, 255, 0) 100%);
+}
+
+.hero .hero-text{
+    padding-top: 80px;
+    padding-left: 100px;
+    width: 40%;
+    color: white;
+}
+
+.hero .hero-text h4{
+    background-color: white;
+    color: #3E3E3E;
+    width: 320px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.hero .hero-text h1{
+    
+}
+
+.hero .hero-text p{
+    line-height: 26px;
+    margin-top: 18px;
+}
+
+.hero .hero-text section{
+    margin-top: 26px;
+    padding-left: 10px;
+    width: 80%;
+    background-color: #496B7E;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.hero .hero-text section .text{
+    
+    
+}
+
+.hero .hero-text section .icon{
+    margin-top: 4px;
+}
+
+.hero .hero-text section .icon img{
+    width: 26px;
+    margin-left: 10px;
+}
+
+.hero .hero-img{
+    position: absolute;
+    width: 40%;
+    top: 120px;
+    left: 55%;
+}
+
+.hero .hero-img .foto1{
+    width: 280px;
+    height: 280px;
+    
+}
+
+.hero .hero-img .foto2{
+    position: absolute;
+    width: 200x;
+    height: 160px;
+}
+
+/* .hero .hero-img .foto3{
+    width: 200px;
+} */
