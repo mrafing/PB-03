@@ -148,3 +148,34 @@ footer{
     text-align: center;
     padding: 20px 0;
 }
+
+/* PAGE ABOUT ME*/
+
+.hero .hero-text-aboutme{
+    color: white;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.hero .hero-text-aboutme p{
+    margin: 20px auto;
+    width: 70%;
+    text-align: center;
+}
+
+.hero .sosmed{
+    text-align: center;
+}
+
+.hero .sosmed p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.hero .sosmed a img{
+    width: 40px;
+    margin: 0 10px;
+}
