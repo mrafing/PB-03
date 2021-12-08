@@ -68,15 +68,17 @@ nav ul li a:hover{
 
 /* hero */
 .hero{
+    justify-content: center;
+    display: flex;
     height: 500px;
     background: linear-gradient(180deg, #496B7E 5.21%, rgba(73, 107, 126, 0.572917) 60.77%, rgba(153, 172, 183, 0.320091) 100%, rgba(255, 255, 255, 0) 100%);
 }
 
 .hero .hero-text{
     padding-top: 80px;
-    padding-left: 100px;
     width: 40%;
     color: white;
+    margin-right: 100px;
 }
 
 .hero .hero-text h4{
@@ -85,10 +87,11 @@ nav ul li a:hover{
     width: 320px;
     text-align: center;
     border-radius: 8px;
+    padding: 0 10px;
 }
 
 .hero .hero-text h1{
-    
+    margin-top: 10px;
 }
 
 .hero .hero-text p{
@@ -106,11 +109,6 @@ nav ul li a:hover{
     align-items: center;
 }
 
-.hero .hero-text section .text{
-    
-    
-}
-
 .hero .hero-text section .icon{
     margin-top: 4px;
 }
@@ -121,27 +119,15 @@ nav ul li a:hover{
 }
 
 .hero .hero-img{
-    position: absolute;
-    width: 40%;
-    top: 120px;
-    left: 55%;
+    padding: 10px 0;
 }
 
-.hero .hero-img .foto1{
-    width: 280px;
-    height: 280px;
-    
+.hero .hero-img .foto{
+    margin-top: 40px;
+    width: 360px;
+    height: 360px;
+    filter: drop-shadow(12px 11px 3px rgba(0, 0, 0, 0.35));
 }
-
-.hero .hero-img .foto2{
-    position: absolute;
-    width: 200x;
-    height: 160px;
-}
-
-/* .hero .hero-img .foto3{
-    width: 200px;
-} */
 
 /* Footer */
 footer{
