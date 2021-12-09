@@ -38,15 +38,17 @@ header .logo a{
 
 header .logo a p{ 
     font-weight: 500;
-    font-size: 22px;
+    font-size: 30px;
     color: #ffff;
-    letter-spacing: 0.06em;
-    margin-top: 10px;
+    letter-spacing: 0.03em;
+    margin-top: 18px;
+    font-family: 'Oleo Script', cursive;
 }
 
 nav{
     width: 300px;
     margin-right: 40px;
+    margin-top: 10px;
 }
 
 nav ul{
@@ -101,7 +103,7 @@ nav ul li a:hover{
 
 .hero .hero-text section{
     margin-top: 26px;
-    padding-left: 10px;
+    padding-left: 20px;
     width: 80%;
     background-color: #496B7E;
     border-radius: 8px;
@@ -114,7 +116,7 @@ nav ul li a:hover{
 }
 
 .hero .hero-text section .icon img{
-    width: 26px;
+    width: 40px;
     margin-left: 10px;
 }
 
