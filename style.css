@@ -111,12 +111,18 @@ nav ul li a:hover{
     align-items: center;
 }
 
+.hero .hero-text section .text{
+    font-size: 20px;
+}
+
 .hero .hero-text section .icon{
     margin-top: 4px;
+    padding: 4px 0;
 }
 
 .hero .hero-text section .icon img{
-    width: 40px;
+    width: 36px;
+    height: 36px;
     margin-left: 10px;
 }
 
